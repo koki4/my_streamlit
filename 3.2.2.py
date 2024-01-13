@@ -1,0 +1,3 @@
+import streamlit as st
+text_contents = '''This is some text'''
+st.download_button('Download some text', text_contents, file_name='some.txt')
